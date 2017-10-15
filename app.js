@@ -16,6 +16,6 @@ app.set('port', port);
 const server = http.createServer(app);
 server.listen(port, () => console.log(
   `  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  ~ PoVAL server running on port 3001 ~
+  ~ PoVAL Client running on port 3001 ~
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
 ));
