@@ -1,29 +1,34 @@
-# Poval
+# PoVAL Client
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+This is the repository for the official PoVAL web client. PoVAL leverages the bitcoin blockchain to facilitate the spending of buying power into provable existance.
 
-## Development server
+# Requirements
+- \*nix
+- bash/zsh
+- git
+- node.js
+- npm
+- angular cli
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Usage
+```bash
+// Clone the repo
+$ git clone https://github.com/branmcf/PoVAL.git
 
-## Code scaffolding
+// Move into the poval directory
+$ cd poval
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+// Install all the things
+$ npm i
 
-## Build
+// Build the client
+$ ng build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+// Serve the app on port 3001
+$ node app.js
+```
+You can also serve the app with Angular which will build and serve the app on port 4200.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# PoVAL
+```bash
+$ ng serve
+```
